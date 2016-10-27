@@ -1,0 +1,91 @@
+/* 
+    Created on : 20/10/2016
+    Author     : Juliano
+*/
+
+.dark {
+    -fx-border-color: #ccc;
+    -fx-border-width: 1;
+    -fx-background-color: #339;
+}
+.dark .label {
+    -fx-text-fill: #fff;
+    -fx-font-size: 36;
+}
+.dark .text-field {
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+    -fx-font-size: 36; 
+    -fx-focus-color: transparent; 
+    -fx-faint-focus-color: transparent; 
+    -fx-border-color: #228; 
+    -fx-border-width: 3; 
+    -fx-text-fill: #339;
+}
+.dark .check-box  {
+    -fx-font-size: 18; 
+    -fx-text-fill: #fff;
+}
+.dark .check-box .box {
+    -fx-background-color: #fff;
+    -fx-background-radius: 0;
+    -fx-padding: 4;
+}
+.light {
+    -fx-border-color: #ccc;
+    -fx-border-width: 1;
+    -fx-background-color: #fff;
+}
+.light .label {
+    -fx-text-fill: #339;
+    -fx-font-size: 36;
+}
+.light .text-field {
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+    -fx-font-size: 36; 
+    -fx-focus-color: transparent; 
+    -fx-faint-focus-color: transparent; 
+    -fx-border-color: #339; 
+    -fx-border-width: 3; 
+    -fx-text-fill: #339;
+}
+.light .check-box  {
+    -fx-font-size: 18; 
+    -fx-text-fill: #ccc;
+}
+.light .check-box .box {
+    -fx-background-color: #339;
+    -fx-background-radius: 0;
+    -fx-padding: 4;
+}
+.imagem-01{
+    -fx-border-color: #ccc;
+    -fx-border-width: 1;
+    -fx-background-color: #339;
+    -fx-background-image: url('img/Imagem01.jpg');
+    -fx-background-position: center center;
+    -fx-background-size: cover;
+}
+.imagem-01 .pane {
+    -fx-background-color: #33339999;
+}
+.imagem-01 .label {
+    -fx-text-fill: #fff;
+    -fx-font-size: 36;
+}
+.imagem-02{
+    -fx-border-color: #ccc;
+    -fx-border-width: 1;
+    -fx-background-color: #339;
+    -fx-background-image: url('img/Imagem02.jpg');
+    -fx-background-position: center center;
+    -fx-background-size: cover;
+}
+.imagem-02 .pane {
+    -fx-background-color: #33339999;
+}
+.imagem-02 .label {
+    -fx-text-fill: #fff;
+    -fx-font-size: 36;
+}

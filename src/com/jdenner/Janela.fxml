@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="root" prefHeight="400.0" prefWidth="600.0" stylesheets="@Tema.css" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jdenner.JanelaController">
+    <children>
+        <VBox alignment="CENTER" fillWidth="false" styleClass="light" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Label focusTraversable="false" prefWidth="500.0" text="Slide 1" />
+            </children>
+        </VBox>
+        <VBox alignment="CENTER" fillWidth="false" styleClass="dark" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Label focusTraversable="false" prefWidth="500.0" text="Slide 2" />
+            </children>
+        </VBox>
+        <AnchorPane styleClass="imagem-01" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <VBox alignment="CENTER" fillWidth="false" styleClass="pane" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <children>
+                        <Label focusTraversable="false" prefWidth="500.0" text="Slide 3" />
+                    </children>
+                </VBox>
+            </children>
+        </AnchorPane>
+        <AnchorPane styleClass="imagem-02" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <VBox alignment="CENTER" fillWidth="false" styleClass="pane" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <children>
+                        <Label focusTraversable="false" prefWidth="500.0" text="Slide 4" />
+                    </children>
+                </VBox>
+            </children>
+        </AnchorPane>
+        <VBox alignment="CENTER" fillWidth="false" styleClass="light" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Label focusTraversable="false" prefWidth="500.0" text="Fim" />
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>
